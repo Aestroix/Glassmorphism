@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <section class="main">
-            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare='0.5' data-tilt-perspective='2000'>
-                <div class="face front" >
-
-                    
-                    <div class="debit"><h3>Debit Card</h3></div>
-                    <div class="bank"><h3>Bank Name</h3></div>
-                    <div class="chip"><img src="./resource/chip.png"></div>
-                    <div class="number"><h3 >1234 8200 8082 5437</h3></div>
-                    <div class="valid"><h5 ><span>Valid <br>thru</span><span>01/25</span></h5></div>
-                    <div class="cardHolder"><h5 >Karmanya Aestroix</h5></div>
-                    
-
-
-                    <div class="master1"></div>
-                    <div class="master2"></div>
-                </div>
-                <!-- <div class="face back">
-
-                </div> -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+      <section class="main">
+        <div
+          class="card one"
+          data-tilt
+          data-tilt-glare
+          data-tilt-max-glare="0.5"
+          data-tilt-perspective="2000"
+        >
+          <div class="face front">
+            <div class="debit"><h3>Debit Card</h3></div>
+            <div class="bank"><h3>Bank Name</h3></div>
+            <div class="chip"><img src="./resource/chip.png" /></div>
+            <div class="number"><h3>1234 8200 8082 5437</h3></div>
+            <div class="valid">
+              <h5>
+                <span>Valid <br />thru</span><span>01/25</span>
+              </h5>
             </div>
-        </section>
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-        <script type="text/javascript" src="vanilla-tilt.min.js"></script>
-    </body>
+            <div class="cardHolder"><h5>Karmanya Aestroix</h5></div>
+
+            <div class="master1"></div>
+            <div class="master2"></div>
+          </div>
+        </div>
+        <div
+          class="card two"
+          data-tilt
+          data-tilt-glare
+          data-tilt-max-glare="0.5"
+          data-tilt-perspective="2000"
+        >
+          <div class="face back">
+            <div class="blackbar"></div>
+            <div class="cvvtext">AUTHORIZE, DO YOU LIKE IT ?</div>
+            <div class="whitebar"></div>
+            <div class="cvv"><h3>3xx</h3></div>
+            <div class="infotext">
+              Aestroix, yeaa him ! He is a charming, clever, fast learner who
+              can talk about anything and learn anything! Hihihi, don't believe
+              so, maybe you don't know him yet? Well nothing to worry, just
+              check @aestroix on Instagram :)
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      
+
+    <script src="./script.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+  </body>
 </html>
